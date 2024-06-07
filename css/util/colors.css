@@ -1,0 +1,99 @@
+/*--------------------------------
+            COLORS
+----------------------------------*/
+:root{
+    /* ### CUSTOM PROPRIETIES ###*/
+
+    /* White Color */
+    --white-color-01: #ffffff;
+    /* Scale of gray */
+    --scale-gray-01: #f7f7f7;
+    --scale-gray-02: #ededed;
+    --scale-gray-03: #dedede;
+    --scale-gray-04: #cccccc;    
+    --scale-gray-05: #b2b2b2;
+    --scale-gray-06: #9c9c9c;
+    --scale-gray-07: #717171;
+    --scale-gray-08: #595959;
+    --scale-gray-09: #404040;
+    --scale-gray-10: #2e2e2e;
+    --scale-gray-11: #111111;
+    --scale-gray-12: #000000;
+
+    /* Primary Color of website */
+    --primary-color-01: #ffbb00;
+    --primary-color-02: #e4a30b;
+    --primary-color-03: #a66f00;
+    --primary-color-04: #664400;
+    --primary-color-05: #332200;
+
+    /* Gradient Color */
+    --gradient-color-01: #ffbf00;
+    --gradient-color-02: #f2a50c;
+    --gradient-color-03: #e59317;
+}
+
+/* ### CLASSES ###*/
+
+/* White Color */
+.white-color-01{
+    color: var(--white-color-01);
+}
+
+/* Classes for Scale of gray */
+.scale-gray-01{
+    color: var(--scale-gray-01);
+}
+.scale-gray-02{
+    color: var(--scale-gray-02);
+}
+.scale-gray-03{
+    color: var(--scale-gray-03);
+}
+.scale-gray-04{
+    color: var(--scale-gray-04);
+}
+.scale-gray-05{
+    color: var(--scale-gray-05);
+}
+.scale-gray-06{
+    color: var(--scale-gray-06);
+}
+.scale-gray-07{
+    color: var(--scale-gray-07);
+}
+.scale-gray-08{
+    color: var(--scale-gray-08);
+}
+.scale-gray-09{
+    color: var(--scale-gray-09);
+}
+.scale-gray-10{
+    color: var(--scale-gray-10);
+}
+.scale-gray-11{
+    color: var(--scale-gray-11);
+}
+.scale-gray-12{
+    color: var(--scale-gray-12);
+}
+
+/* Classes for Primary colors of website */
+.primary-color-01{
+    color: var(--primary-color-01);
+}
+.primary-color-02{
+    color: var(--primary-color-02);
+}
+.primary-color-03{
+    color: var(--primary-color-03);
+}
+.primary-color-04{
+    color: var(--primary-color-04);
+}
+.primary-color-05{
+    color: var(--primary-color-05);
+}
+
+
+
