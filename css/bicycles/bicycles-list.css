@@ -4,10 +4,7 @@
 }
 
 .bicycles-list h2{
-    box-sizing: border-box;    
-    max-width: 1200px;
-    padding: 0 20px;
-    margin: auto auto;
+    margin-bottom: 40px;
 }
 
 .bicycles-list ul{

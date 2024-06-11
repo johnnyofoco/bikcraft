@@ -10,15 +10,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px 40px;
-    max-width: 1200px;
-    box-sizing: border-box;
-    padding: 0 20px;
-    margin: auto auto;
 }
 
 .introduction-conteudo{
     align-self: end;
-    padding-bottom: 200px;
+    padding-bottom: 170px;
 }
 
 .introduction h1{
@@ -33,7 +29,7 @@
     min-height: 100%;
     object-fit: cover;
     border-radius: 4px;
-    margin-bottom: -10rem;
+    margin-bottom: -5rem;
 }
 
 /*--------------------------------
