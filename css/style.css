@@ -5,10 +5,11 @@
 @import "./global/header.css";
 
 /* Utilities*/
-@import "./home/main-content.css";
+@import "./util/components.css";
 
 /* Home */
-@import "./util/components.css";
+@import "./home/main-content.css";
+@import "./home/tech.css";
 
 /* Bicycles */
 @import "./bicycles/bicycles-list.css";
