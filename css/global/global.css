@@ -4,8 +4,7 @@
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--scale-gray-11);
-    padding-bottom: 600px; /*remover no final*/
+    color: var(--scale-gray-11);    
 }
 
 h1,
