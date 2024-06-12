@@ -17,10 +17,20 @@
     text-transform: uppercase;
     color: var(--primary-color-05);
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
  }
  
  .btn:hover{
      background: linear-gradient(var(--gradient-color-01), var(--gradient-color-03));
+ }
+
+ .btn.secondary{
+    background: var(--scale-gray-10);
+    color: var(--scale-gray-02);
+ }
+
+ .btn.secondary:hover{
+    background: var(--scale-gray-09);
  }
 
  .link{
