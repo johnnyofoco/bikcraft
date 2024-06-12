@@ -51,6 +51,31 @@
     color: var(--white-color-01);
  }
 
+ /* titulo das páginas internas*/
+.title-bg{
+   background-color: var(--scale-gray-11);
+   padding: 60px 60px;   
+}
+
+.title-bg p{
+   margin-bottom: 4px;
+}
+
+/*--------------------------------
+       Mobile media-queries
+----------------------------------*/
+@media (max-width: 800px){
+   .title-bg{
+      padding: 40px 40px;
+   }
+
+   .title p{
+      font-size: 1rem;
+      text-transform: lowercase;
+      font-weight: 400;
+   }
+}
+
 /*--------------------------------
        Mobile media-queries
 ----------------------------------*/

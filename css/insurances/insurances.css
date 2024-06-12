@@ -12,6 +12,7 @@
 
 .insurances h2{
     grid-column: 1 / -1;
+    padding: 0 20px;
 }
 
 .insurances-item{

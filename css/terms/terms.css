@@ -1,0 +1,18 @@
+.termos{
+    padding: 80px;
+}
+
+.termos h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/*h2 imediatamente pós a tag p*/
+.termos p + h2{
+    margin-top: 40px;
+}
+
+.termos p{
+    margin-bottom: 24px;
+    max-width: 75ch;
+}
