@@ -1,0 +1,53 @@
+.bicycle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bicycle-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bicycle-images img{
+    flex: 1;
+    min-width: 200px;
+}
+
+.bicycle-images  img:first-child{
+    min-width: 100%;
+}
+
+.bicycle-content > p{
+    margin-bottom: 32px;
+}
+
+.bicycle-buy{
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    justify-items: start;
+    gap: 8px 12px;
+}
+
+
+.bicycle-buy a{
+    grid-row: span 2;    
+}
+
+.bicycle-buy span{
+    display: flex;
+    align-items: center;
+    background-color: var(--scale-gray-12);
+    padding: 4px 8px;
+    border-radius: 4px;
+    gap: 8px;
+}
+
+.bicycle-content{
+    
+}
