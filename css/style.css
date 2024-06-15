@@ -7,7 +7,7 @@
 @import "./global/header.css";
 @import "./global/footer.css";
 
-/* Utilities*/
+/* Utils */
 @import "./util/components.css";
 
 /* Home */
@@ -22,6 +22,8 @@
 
 /* Insurances */
 @import "./insurances/insurances.css";
+@import "./insurances/advantages.css";
+@import "./insurances/asks.css";
 
 /* Terms */
 @import "./terms/terms.css";
