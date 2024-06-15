@@ -22,6 +22,7 @@
 
 /* Bicycle inners */
 @import "./bicycle/bikes.css";
+@import "./bicycle/insurance.css";
 
 /* Insurances */
 @import "./insurances/insurances.css";

@@ -3,6 +3,10 @@
     padding-bottom: 60px;
 }
 
+#bike .bicycles-list {
+    padding-top: 60px;
+}
+
 .bicycles-list h2{
     margin-bottom: 40px;
 }
