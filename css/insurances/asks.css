@@ -53,11 +53,11 @@
     transition: .3s;
 }
 
-.asks dd{
+.js .asks dd{
     display: none;
 }
 
-.asks dd.active{
+.js .asks dd.active{
     display: block;
 }
 
