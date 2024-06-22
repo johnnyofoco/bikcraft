@@ -18,8 +18,27 @@ parameters.forEach(activeProduct);
 
 function activeProduct(parameter) {
     const element = document.getElementById(parameter);
-    if(element){
+    if (element) {
         element.checked = true;
     }
 }
 
+// Asks(Page insurance)
+const asks = document.querySelectorAll(".asks button");
+
+function activeAsk(event) {
+    const ask = event.currentTarget;
+    const controls = ask.getAttribute("aria-controls");
+    const idResponse = document.getElementById(controls);
+
+    idResponse.classList.toggle("active");
+    const active = idResponse.classList.contains("active");
+    
+    ask.setAttribute("aria-expanded", active);
+}
+
+function eventsAsks(ask) {
+    ask.addEventListener("click", activeAsk);
+}
+
+asks.forEach(eventsAsks);
