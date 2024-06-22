@@ -47,22 +47,24 @@
         <main class="introduction-bg">
             <div class="introduction container">
                 <div class="introduction-conteudo">
-                    <h1 class="font-1-xxl white-color-01">
+                    <h1 class="font-1-xxl white-color-01 fadeInDown" data-anime="200">
                         Bicicletas feitas sob medida<span
                             class="primary-color-01"
                             >.</span
                         >
                     </h1>
-                    <p class="font-2-l scale-gray-05">
+                    <p class="font-2-l scale-gray-05 fadeInDown" data-anime="400">
                         Bicicletas elétricas de alta precisão e qualidade,
                         feitas sob medida para você. Explore o mundo na sua
                         velocidade com a BIcraft.
                     </p>
-                    <a class="btn" href="./pages/bicycles.html"
+                    <a class="btn fadeInDown" 
+                        href="./pages/bicycles.html"
+                        data-anime="600"
                         >Escolha a sua</a
                     >
                 </div>
-                <picture>
+                <picture class="fadeInDown" data-anime="800">
                     <source
                         media="(max-width: 800px)"
                         srcset="./img/bicycles/nimbus.jpg"
@@ -401,6 +403,7 @@
             </div>
         </footer>
 
-        <script src="./js/script.js"></script>        
+        <script src="./js/plugins/simple-anime.js"></script>
+        <script src="./js/script.js"></script>
     </body>
 </html>

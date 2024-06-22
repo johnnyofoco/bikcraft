@@ -2,6 +2,7 @@
 @import "./util/typography.css";
 @import "./util/colors.css";
 @import "./global/global.css";
+@import "./util/animations.css";
 
 /* Global*/
 @import "./global/header.css";
@@ -39,3 +40,4 @@
 
 /* Terms */
 @import "./terms/terms.css";
+
