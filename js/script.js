@@ -33,7 +33,7 @@ function activeAsk(event) {
 
     idResponse.classList.toggle("active");
     const active = idResponse.classList.contains("active");
-    
+
     ask.setAttribute("aria-expanded", active);
 }
 
@@ -42,3 +42,22 @@ function eventsAsks(ask) {
 }
 
 asks.forEach(eventsAsks);
+
+// Bikes gallery
+const gallery = document.querySelectorAll(".bicycle-images img");
+const galleryContainer = document.querySelector(".bicycle-images");
+
+function changeImage(event) {
+    const img = event.currentTarget;
+    const media = window.matchMedia('(min-width: 1000px)').matches;
+    
+    if(media){
+        galleryContainer.prepend(img);
+    }
+}
+
+function eventsGallery(img) {
+    img.addEventListener("click", changeImage);
+}
+
+gallery.forEach(eventsGallery);
